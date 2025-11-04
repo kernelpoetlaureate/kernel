@@ -45,3 +45,9 @@ malloc:
 
 times 510-($-$$) db 0
 dw 0xAA55
+
+
+
+;nasm -f bin boot.asm -o boot.bin
+;qemu-system-i386 -fda boot.bin
+
