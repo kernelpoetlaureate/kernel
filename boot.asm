@@ -1,3 +1,5 @@
+
+
 bits 16
 org 0x7c00
 
@@ -48,6 +50,6 @@ dw 0xAA55
 
 
 
-;nasm -f bin boot.asm -o boot.bin
-;qemu-system-i386 -fda boot.bin
+
+
 
