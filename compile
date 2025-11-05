@@ -1,2 +1,5 @@
+# Compile
 nasm -f bin boot.asm -o boot.bin
-qemu-system-i386 -fda boot.bin
+
+# Run with trace
+qemu-system-i386 -fda boot.bin -d in_asm,cpu -D qemu_trace.log
